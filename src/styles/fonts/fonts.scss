@@ -1,0 +1,46 @@
+/* Для Montserrat */
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('./Montserrat-Regular.woff2') format('woff2');
+  font-weight: 400; /* Bold */
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Montserrat';
+  src: url('./Montserrat-Medium.woff2') format('woff2');
+  font-weight: 500; /* Medium */
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Montserrat';
+  src: url('./Montserrat-Bold.woff2') format('woff2');
+  font-weight: 700; /* Bold */
+  font-display: swap;
+}
+
+/* Для Roboto */
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('./Roboto-Thin.woff2') format('woff2');
+  font-weight: 100; /* Bold */
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url('./Roboto-Regular.woff2') format('woff2');
+  font-weight: 400; /* Bold */
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url('./Roboto-Medium.woff2') format('woff2');
+  font-weight: 500; /* Medium */
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url('./Roboto-Bold.woff2') format('woff2');
+  font-weight: 700; /* Bold */
+  font-display: swap;
+}

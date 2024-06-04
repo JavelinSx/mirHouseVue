@@ -1,0 +1,88 @@
+@import './styles/fonts/fonts.scss';
+@import './styles/reset.scss';
+:root {
+  font-family: 'Roboto', 'Montserrat', Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color: #1a4c67;
+  background-color: #fff;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --vc-clr-primary: #fff !important;
+  --vc-clr-secondary: #b4b4b4 !important;
+  --vc-pgn-border-radius: 50px !important;
+}
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 200px;
+}
+a {
+  font-weight: 500;
+  color: #1a4c67;
+}
+a:hover {
+  color: #1a4c67;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+.card {
+  padding: 2em;
+}
+
+#app {
+  max-width: 1280px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 100vw;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #213547;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
